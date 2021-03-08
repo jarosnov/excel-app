@@ -1,0 +1,31 @@
+{
+  "name": "excel-app",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarosnov/excel-app.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Yaroslav Novikov <jarosnov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarosnov/excel-app/issues"
+  },
+  "homepage": "https://github.com/jarosnov/excel-app#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
+  }
+}
